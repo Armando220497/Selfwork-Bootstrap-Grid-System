@@ -1,3 +1,22 @@
 nav {
     background-color: #029cf7;
+    z-index: 2;
+}
+
+header {
+    background-image: url(media/napoli.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+.titolo-h1 {
+    color: black;
+    font-size: 7vh;
+}
+
+* {
+    font-family: "Roboto Condensed", sans-serif;
 }
