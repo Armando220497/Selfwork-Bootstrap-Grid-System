@@ -20,3 +20,8 @@ header {
 * {
     font-family: "Roboto Condensed", sans-serif;
 }
+
+#carouselExample img {
+    height: 300px;
+    object-fit: cover;
+}

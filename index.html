@@ -20,124 +20,232 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
+<body>
 
-<!-- aggiunta nav tramite bootstrap e resa fissa-->
+    <!-- aggiunta nav tramite bootstrap e resa fissa-->
 
-<nav class="navbar navbar-expand-lg position-fixed w-100 top-0">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="#">Home</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Ricette</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Primi piatti</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Secondi piatti</a>
-                </li>
+    <nav class="navbar navbar-expand-lg position-fixed w-100 top-0">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Home</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Ricette</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Primi piatti</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Secondi piatti</a>
+                    </li>
 
-            </ul>
-        </div>
-    </div>
-</nav>
-
-
-
-<header class="vh-100 d-flex justify-content-center align-items-center">
-    <h1 class="titolo-h1">
-        Blog di cucina
-    </h1>
-</header>
-
-<!-- Sezione Ricette della Regione usando un container,col e row-->
-<main>
-    <section>
-        <h2 class="text-center">Le nostre ricette</h2>
-        <div class="container mt-5">
-            <div class="row">
-
-                <!-- Prima Ricetta -->
-                <div class="col-md-4 recipe">
-
-                    <!-- Usato classe card di bootstrap per dare una forma con img titolo e descrizione-->
-
-                    <!-- La classe card è già progettata per essere responsive sfruttando i breakpoint predefiniti di Bootstrap. -->
-
-                    <div class="card">
-
-                        <a href="https://ricette.giallozafferano.it/Spaghetti-al-pomodoro.html"><img
-                                src="media/Spaghetti-al-pomodoro.jpg" class="card-img-top"
-                                alt="Spaghetti al pomodoro"></a>
-                        <div class="card-body">
-                            <h5 class="card-title">Spaghetti al pomodoro</h5>
-                            <p class="card-text">Gli Spaghetti al Pomodoro sono un piatto classico della cucina
-                                italiana.
-                                Preparati con pomodori maturi, aglio, olio d'oliva e basilico fresco, sono un'esplosione
-                                di
-                                sapori mediterranei. Un piatto semplice e delizioso adatto a qualsiasi occasione.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Seconda Ricetta -->
-                <div class="col-md-4 recipe">
-                    <div class="card">
-                        <a href="https://ricette.giallozafferano.it/Salsiccia-e-friarielli.html"><img
-                                src="media/Salsiccia-e-friarielli.jpg" class="card-img-top"
-                                alt="Salsiccia e friarielli">
-                        </a>
-                        <div class="card-body">
-                            <h5 class="card-title">Salsiccia e friarielli</h5>
-                            <p class="card-text">La Salsiccia e Friarielli è un piatto tipico della cucina napoletana.
-                                Le
-                                salsicce di maiale vengono cotte con i friarielli, un tipo di broccoli napoletani, e
-                                aromatizzate con aglio e peperoncino. Un piatto ricco di sapori e tradizione, perfetto
-                                per
-                                un
-                                pasto sostanzioso e gustoso.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Terza Ricetta -->
-                <div class="col-md-4 recipe">
-                    <div class="card">
-                        <a href="https://ricette.giallozafferano.it/Baba-al-rhum.html"><img src="media/Baba-al-rhum.jpg"
-                                class="card-img-top" alt="Baba' al rum"></a>
-                        <div class="card-body">
-                            <h5 class="card-title">Baba' al rum </h5>
-                            <p class="card-text">Il Babà al Rum è un dolce tradizionale della cucina napoletana. È un
-                                soffice
-                                dolce lievitato inzuppato in una sciroppo di zucchero e rum, che gli conferisce un
-                                sapore
-                                deciso
-                                e aromatico. Un dessert amato dai golosi, perfetto per concludere un pasto in modo dolce
-                                e
-                                appagante.</p>
-                        </div>
-                    </div>
-                </div>
-
+                </ul>
             </div>
         </div>
-    </section>
-</main>
+    </nav>
+
+
+
+    <header class="vh-100 d-flex justify-content-center align-items-center">
+        <h1 class="titolo-h1">
+            Blog di cucina
+        </h1>
+    </header>
+
+    <!-- Sezione Ricette della Regione usando un container,col e row-->
+    <main>
+        <section>
+            <h2 class="text-center">Le nostre ricette</h2>
+            <div class="container mt-5">
+                <div class="row">
+
+                    <!-- Prima Ricetta -->
+                    <div class="col-md-4 recipe">
+
+                        <!-- Usato classe card di bootstrap per dare una forma con img titolo e descrizione-->
+
+                        <!-- La classe card è già progettata per essere responsive sfruttando i breakpoint predefiniti di Bootstrap. -->
+
+                        <div class="card">
+
+                            <a href="https://ricette.giallozafferano.it/Spaghetti-al-pomodoro.html"><img
+                                    src="media/Spaghetti-al-pomodoro.jpg" class="card-img-top"
+                                    alt="Spaghetti al pomodoro"></a>
+                            <div class="card-body">
+                                <h5 class="card-title">Spaghetti al pomodoro</h5>
+                                <p class="card-text">Gli Spaghetti al Pomodoro sono un piatto classico della cucina
+                                    italiana.
+                                    Preparati con pomodori maturi, aglio, olio d'oliva e basilico fresco, sono
+                                    un'esplosione
+                                    di
+                                    sapori mediterranei. Un piatto semplice e delizioso adatto a qualsiasi occasione.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Seconda Ricetta -->
+                    <div class="col-md-4 recipe">
+                        <div class="card">
+                            <a href="https://ricette.giallozafferano.it/Salsiccia-e-friarielli.html"><img
+                                    src="media/Salsiccia-e-friarielli.jpg" class="card-img-top"
+                                    alt="Salsiccia e friarielli">
+                            </a>
+                            <div class="card-body">
+                                <h5 class="card-title">Salsiccia e friarielli</h5>
+                                <p class="card-text">La Salsiccia e Friarielli è un piatto tipico della cucina
+                                    napoletana.
+                                    Le
+                                    salsicce di maiale vengono cotte con i friarielli, un tipo di broccoli napoletani, e
+                                    aromatizzate con aglio e peperoncino. Un piatto ricco di sapori e tradizione,
+                                    perfetto
+                                    per
+                                    un
+                                    pasto sostanzioso e gustoso.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Terza Ricetta -->
+                    <div class="col-md-4 recipe">
+                        <div class="card">
+                            <a href="https://ricette.giallozafferano.it/Baba-al-rhum.html"><img
+                                    src="media/Baba-al-rhum.jpg" class="card-img-top" alt="Baba' al rum"></a>
+                            <div class="card-body">
+                                <h5 class="card-title">Baba' al rum </h5>
+                                <p class="card-text">Il Babà al Rum è un dolce tradizionale della cucina napoletana. È
+                                    un
+                                    soffice
+                                    dolce lievitato inzuppato in una sciroppo di zucchero e rum, che gli conferisce un
+                                    sapore
+                                    deciso
+                                    e aromatico. Un dessert amato dai golosi, perfetto per concludere un pasto in modo
+                                    dolce
+                                    e
+                                    appagante.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+        <!-- carosello -->
+
+        <section>
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col-md-6 ">
+                        <div id="carouselExample" class="carousel slide">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="media/casatiello.jpg" class="d-block w-100" alt="foto casatiello">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="media/pizza.jpg" class="d-block w-100" alt="foto pizza">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="media/zeppole.jpg" class="d-block w-100" alt="foto zeppola">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+
+                    </div>
+
+                    <!-- accordion -->
+
+                    <div class="col-md-6 ">
+
+                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                        aria-controls="flush-collapseOne">
+                                        Come posso conservare correttamente gli ingredienti freschi?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Per conservare al meglio gli ingredienti freschi, è
+                                        importante avvolgerli correttamente e conservarli nel frigorifero. Ad esempio,
+                                        le verdure vanno conservate in sacchetti di plastica perforati per consentire
+                                        una buona circolazione dell'aria.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                        aria-controls="flush-collapseTwo">
+                                        Posso sostituire un ingrediente in una ricetta?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body"> Sì, in molte ricette è possibile sostituire alcuni
+                                        ingredienti. Ad esempio, latte di mandorla può essere sostituito al latte di
+                                        vacca, oppure tofu al posto delle uova per rendere una ricetta vegana.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                        aria-controls="flush-collapseThree">
+                                        Quali sono i consigli generali per cucinare con successo?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Alcuni consigli generali per cucinare con successo
+                                        includono: utilizzare ingredienti freschi di alta qualità, seguire attentamente
+                                        le istruzioni della ricetta, assaggiare e regolare il condimento durante la
+                                        preparazione, e mantenere una cucina pulita e ordinata per una migliore
+                                        esperienza di cucina.</div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+
+
+
+
+    </main>
 
 
 
 
 
 
-<!-- Bootstrap JS -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-    crossorigin="anonymous"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 
 </body>
 
